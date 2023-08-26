@@ -9,7 +9,7 @@ import axios from "axios";
 import RadioButtons from "./RadioButtons";
 
 const USER_REGEX = /^[A-z][A-z0-9\s-_]{3,23}$/;
-const PWD_REGEX = /^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%]).{8,24}$/;
+const PWD_REGEX = /^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%*]).{8,24}$/;
 const REGISTER_URL = "/register";
 
 const Register = () => {
@@ -144,7 +144,7 @@ const Register = () => {
                 <br />
                 Must begin with a letter.
                 <br />
-                Letters, numbers, underscores, hyphens allowed.
+                Letters, numbers, underscores, hyphens,asterisk allowed.
               </p>
 
               <label htmlFor="password">
