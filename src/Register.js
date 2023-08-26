@@ -144,7 +144,7 @@ const Register = () => {
                 <br />
                 Must begin with a letter.
                 <br />
-                Letters, numbers, underscores, hyphens,asterisk allowed.
+                Letters, numbers, underscores, hyphens, allowed.
               </p>
 
               <label htmlFor="password">
@@ -185,6 +185,7 @@ const Register = () => {
                 <span aria-label="hashtag">#</span>{" "}
                 <span aria-label="dollar sign">$</span>{" "}
                 <span aria-label="percent">%</span>
+                <span aria-label="asterisk">*</span>
               </p>
 
               <label htmlFor="confirm_pwd">
