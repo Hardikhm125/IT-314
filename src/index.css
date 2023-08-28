@@ -49,9 +49,21 @@ form {
     padding-bottom: 1rem;
 }
 
+.s{
+    color: black;
+    transition: color 0.3s;
+}
+
+.s:hover{
+    cursor: pointer; 
+    font-size: larger;
+    color:#3F76BF;
+    
+}
+
 a,
 a:visited {
-    color: #fff;
+    color: white;
 }
 
 input[type="text"],
@@ -189,15 +201,5 @@ button {
 }
 
 
-.s{
-    color: black;
-    transition: color 0.3s;
-}
 
-.s:hover{
-    cursor: pointer; 
-    font-size: larger;
-    color:#3F76BF;
-    
-}
   
