@@ -190,7 +190,7 @@ button {
 
 
 .s{
-    color: #000;
+    color: black;
     transition: color 0.3s;
 }
 
@@ -198,5 +198,6 @@ button {
     cursor: pointer; 
     font-size: larger;
     color:#3F76BF;
+    
 }
   

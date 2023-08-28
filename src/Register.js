@@ -235,7 +235,7 @@ const Register = () => {
               <br />
               <span className="line">
                 {/*put router link here*/}
-                <a href="#" className="s" style={{color:"black"}}>
+                <a href="#" className="s" >
                   Sign In
                 </a>
               </span>
