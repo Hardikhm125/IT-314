@@ -57,7 +57,7 @@ form {
 .s:hover{
     cursor: pointer; 
     font-size: larger;
-    color:#3F76BF;
+    color:#3F76BF !important;
     
 }
 
