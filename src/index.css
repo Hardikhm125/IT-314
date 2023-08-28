@@ -63,7 +63,7 @@ form {
 
 a,
 a:visited {
-    color: white;
+    color: white !important;
 }
 
 input[type="text"],
